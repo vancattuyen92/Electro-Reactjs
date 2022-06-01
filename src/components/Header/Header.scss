@@ -1,0 +1,73 @@
+$yellow-color: #fed700;
+$brown-color: #333e48;
+
+.header {
+    padding: 8px 0 0 0;
+    color: gray;
+    .navbar-right {
+        width: 40%;
+    }
+}
+
+hr {
+    margin: -5px 0 0 0;
+    padding: 0;
+    border-color: rgba(255, 255, 255, 0.452);
+}
+
+.navbar {
+    padding: 30px 0;
+    align-items: center;
+    img {
+        margin-top: -5px;
+        width: 80%;
+        height: auto;
+    }
+    .icon-bar {
+        margin-top: 2px;
+        width: 0%;
+        font-size: 20px;
+    }
+    .search-bar {
+        width: 50%;
+        border: 2px solid $yellow-color;
+        border-radius: 50px;
+        text-align: center;
+        input {
+            margin: 0 0 0 30px;
+            font-size: 15px;
+        }
+        button {
+            background-color: $yellow-color;
+            border: none;
+            border-top-right-radius: 50px;
+            border-bottom-right-radius: 50px;
+            padding: 5px 20px;
+            font-size: 18px;
+            margin-left: -120px;
+        }
+    }
+    .icon-list {
+        .icon {
+            padding: 0 20px;
+            font-size: 20px;
+        }
+    }
+    .cart {
+        font-size: 25px;
+    }
+
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    border: none !important;
+    height: 38px !important;
+    align-items: center !important;
+    &:focus {
+        outline: transparent !important;
+    }
+}
+.ant-select-arrow {
+    color: $brown-color !important;
+}
+

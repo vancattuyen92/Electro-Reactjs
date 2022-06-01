@@ -1,0 +1,111 @@
+.signup-bar {
+  background-color: #fed700;
+  padding: 15px 0;
+}
+
+.signup-bar .group {
+  padding-top: 5px;
+}
+
+.signup-bar .newsletter {
+  font-size: 22px;
+}
+
+.signup-bar .shopping {
+  font-size: 16px;
+  padding: 10px 0 0 0;
+}
+
+.signup-bar .signup-input {
+  font-size: 15px;
+}
+
+.signup-bar .signup-input input {
+  padding: 10px 40px 10px 30px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  width: 450px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.signup-bar .signup-input button {
+  background-color: #333e48;
+  color: white;
+  padding: 10px 30px;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.signup-bar .signup-input button:hover {
+  background-color: #282d31;
+}
+
+.footer {
+  padding: 50px 0;
+}
+
+.footer .footer-left {
+  width: 30%;
+}
+
+.footer h2 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.footer h4 {
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: -5px;
+}
+
+.footer img {
+  width: 40%;
+  padding-bottom: 20px;
+}
+
+.footer .icon {
+  color: #fed700;
+  font-size: 50px;
+}
+
+.footer h5 {
+  padding-top: 15px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.footer .address {
+  font-size: 15px;
+  margin-top: -5px;
+}
+
+.footer .social-icon {
+  font-size: 25px;
+  padding-right: 15px;
+  color: #333e48b4;
+}
+
+.footer .footer-right {
+  width: 57%;
+}
+
+.footer .footer-right h6 {
+  font-size: 16px;
+}
+
+.footer .footer-right .middle {
+  padding-top: 32px;
+}
+
+.footer .footer-right p {
+  line-height: 16px;
+  font-size: 15px;
+}
+/*# sourceMappingURL=Footer.css.map */

@@ -1,0 +1,60 @@
+{
+    "data" : [
+        {
+            'name': 'Audio Speakers',
+            'sub_name': 'Wireless Audio System Multiroom 360',
+            'image': 'https://electro.madrasthemes.com/wp-content/uploads/2016/03/WirelessSound.png',
+            'price': '699',
+            'promo-price':''
+        },
+        {
+            'name': 'Laptops, Ultrabooks',
+            'sub_name': 'Tablet Red EliteBook Revolve 810 G2',
+            'image': 'https://electro.madrasthemes.com/wp-content/uploads/2016/03/apptablet.png',
+            'price': '599',
+            'promo-price':'399'
+        },
+        {
+            'name': 'Headphones',
+            'sub_name': 'White Solo 2 Wireless',
+            'image': 'https://electro.madrasthemes.com/wp-content/uploads/2016/03/uniheadphone.png',
+            'price': '249',
+            'promo-price':''
+        },
+        {
+            'name': 'Smartphones',
+            'sub_name': 'Smartphone 6S 32GB LTE',
+            'image': 'https://electro.madrasthemes.com/wp-content/uploads/2016/03/GoldPhone-1.png',
+            'price': '999',
+            'promo-price':'849'
+        },
+        {
+            'name': 'Cameras',
+            'sub_name': 'Purple NX Mini F1 aparat SMART NX',
+            'image': 'https://electro.madrasthemes.com/wp-content/uploads/2016/03/camera2.png',
+            'price': '559',
+            'promo-price':''
+        },
+        {
+            'name': 'Printers',
+            'sub_name': 'Full Color LaserJet Pro M452dn',
+            'image': 'https://electro.madrasthemes.com/wp-content/uploads/2016/03/printer.png',
+            'price': '759',
+            'promo-price':''
+        },
+        {
+            'name': 'Game Consoles, Gaming',
+            'sub_name': 'GameConsole Destiny Special Edition',
+            'image': 'https://electro.madrasthemes.com/wp-content/uploads/2016/03/game1.png',
+            'price': '599',
+            'promo-price':''
+        },
+        {
+            'name': 'Cameras',
+            'sub_name': 'Camera C430W 4k Waterproof',
+            'image': 'https://electro.madrasthemes.com/wp-content/uploads/2016/03/videocamera.png',
+            'price': '599',
+            'promo-price':''
+        }
+    ]
+}

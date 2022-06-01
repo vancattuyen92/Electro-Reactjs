@@ -1,0 +1,125 @@
+.promo {
+  padding: 50px 0;
+  cursor: pointer;
+}
+
+.promo .promo-box {
+  width: 320px;
+  height: auto;
+  background-color: #f5f5f5;
+  padding: 10px 0 10px 10px;
+}
+
+.promo .promo-box p {
+  font-size: 17px;
+  font-weight: 300;
+  width: 70%;
+}
+
+.promo .promo-box p:hover {
+  color: #fed700;
+}
+
+.promo img {
+  width: 100%;
+  height: auto;
+}
+
+.promo .img {
+  width: 50%;
+}
+
+.promo .promo-text {
+  width: 60%;
+  margin-left: 10px;
+  line-height: 22px;
+  font-size: 15px;
+}
+
+.promo .shopnow {
+  background-color: #f5f5f5;
+  font-weight: 600;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+  position: relative;
+}
+
+.promo .shopnow a {
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+}
+
+.promo .shopnow a::before,
+.promo .shopnow a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+
+.promo .shopnow a::before {
+  background-color: #fed700;
+  height: 2px;
+  bottom: 0;
+  -webkit-transform-origin: 100% 50%;
+          transform-origin: 100% 50%;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.76, 0, 0.24, 1);
+  transition: -webkit-transform 0.4s cubic-bezier(0.76, 0, 0.24, 1);
+  transition: transform 0.4s cubic-bezier(0.76, 0, 0.24, 1);
+  transition: transform 0.4s cubic-bezier(0.76, 0, 0.24, 1), -webkit-transform 0.4s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.promo .shopnow a::after {
+  content: attr(data-replace);
+  height: 100%;
+  top: 0;
+  -webkit-transform-origin: 100% 50%;
+          transform-origin: 100% 50%;
+  -webkit-transform: translate3d(200%, 0, 0);
+          transform: translate3d(200%, 0, 0);
+  -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.76, 0, 0.24, 1);
+  transition: -webkit-transform 0.4s cubic-bezier(0.76, 0, 0.24, 1);
+  transition: transform 0.4s cubic-bezier(0.76, 0, 0.24, 1);
+  transition: transform 0.4s cubic-bezier(0.76, 0, 0.24, 1), -webkit-transform 0.4s cubic-bezier(0.76, 0, 0.24, 1);
+  color: #fed700;
+}
+
+.promo .shopnow a:hover::before {
+  -webkit-transform-origin: 0% 50%;
+          transform-origin: 0% 50%;
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.promo .shopnow a:hover::after {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+.promo .shopnow a span {
+  display: inline-block;
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+  transition: -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+  transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+  transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1), -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.promo .shopnow a:hover span {
+  -webkit-transform: translate3d(-200%, 0, 0);
+          transform: translate3d(-200%, 0, 0);
+}
+
+.promo .shopnow .circle {
+  background-color: white;
+  border-radius: 50%;
+  color: #fed700;
+  position: absolute;
+  top: 2px;
+  left: 80px;
+}
+/*# sourceMappingURL=Dep.css.map */
