@@ -3,11 +3,28 @@ import './Header.scss'
 import '../../index.scss'
 import logo from './electro-logo.png'
 import { Select } from 'antd';
+import { useSelector} from 'react-redux'
+import { Popover} from 'antd';
 
 import { EnvironmentOutlined, CarryOutOutlined, ShoppingOutlined, 
     UserOutlined, RetweetOutlined, HeartOutlined, 
     MenuOutlined, SearchOutlined} from '@ant-design/icons';
+
 export default function Header() {
+    // const totalAmount = useSelector((state) => state.totalAmount.currentVal)
+    const totalProducts = useSelector((state) => state.totalProduct.currentProduct)
+    console.log('new products cart', totalProducts)
+    let totalVal = 0
+    for (let i=0; i< totalProducts.length; i++) {
+      totalVal = totalVal + parseInt(totalProducts[i].price) 
+    }
+    console.log('totalValllllllll',totalVal)
+    const [visible, setVisible] = React.useState(false);
+
+    const handleVisibleChange = (newVisible) => {
+        setVisible(newVisible);
+    };
+
     let url="";
     const { Option } = Select;
     const categories = [
@@ -74,10 +91,33 @@ export default function Header() {
                     <HeartOutlined className='icon' />
                     <UserOutlined className='icon' />
                 </div>
-                <div className='cart j-between'>
-                    <ShoppingOutlined />
-                    <h6>$0.00</h6>
-                </div>
+                <Popover
+                    content={
+                        <div>
+                            {totalProducts.map((product) => (
+                                <div className='j-between cart-total'>
+                                    <div className='img'><img src={product.image} alt=""/></div>
+                                    <div className='cart-content'>
+                                        <h4>{product.sub_name}</h4>
+                                        <h3>${product.price}.00</h3>
+                                    </div>
+                                </div>
+                            ))}
+                            <h2 style={{color:'red'}}>Total: ${totalVal}.00</h2>
+                        </div>
+                    }
+                    title="Cart"
+                    trigger="click"
+                    visible={visible}
+                    onVisibleChange={handleVisibleChange}
+                    >
+                        <div className='cart j-between' style={{marginBottom:'-10px',color: '#fed700'}}>
+                            <ShoppingOutlined style={{padding:"4px 5px 0 0"}}/>
+                            <h5>${totalVal}.00</h5>
+                        </div>
+                    
+                </Popover>
+                    
             </div>
         </div>
     )

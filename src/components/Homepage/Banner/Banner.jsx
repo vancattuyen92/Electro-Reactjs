@@ -6,8 +6,6 @@ import TweenOne from 'rc-tween-one';
 import watch from './assets/smartwatches-resized.png'
 import sound from './assets/Sounddevice.png';
 
-
-
 import { Menu } from 'antd';
 import { BarsOutlined } from '@ant-design/icons';
 import { Dropdown, Space } from 'antd';

@@ -269,6 +269,7 @@ h3 {
 
 .best-deal {
     background-color: #f4f4f4;
+    padding-bottom: 40px;
     .deal-name {
         padding: 30px 200px 5px 200px;
         border-bottom: 1px solid rgba(128, 128, 128, 0.233);
@@ -315,6 +316,8 @@ h3 {
                 font-weight: 600;
                 color:white;
                 font-size: 12px;
+                align-items: center;
+                text-align: center;
                 &:hover {
                     background-color: $brown-color;
                 }

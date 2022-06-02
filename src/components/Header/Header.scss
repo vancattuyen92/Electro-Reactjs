@@ -70,4 +70,20 @@ hr {
 .ant-select-arrow {
     color: $brown-color !important;
 }
+.cart {
+    cursor: pointer;
+}
+.cart-total {
+    width: 300px;
+    .img {
+        width: 40%;
+    }
+    .cart-content {
+        width: 100%;
+        h4 {
+            color: red;
+        }
+    }
 
+
+}
