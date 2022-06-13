@@ -4,9 +4,9 @@ import '../../../index.scss'
 import camera from './assets/cameras-resized.png'
 import laptop from './assets/laptop.png'
 import desktop from './assets/desktop.png'
-import camera360 from './assets/360-camers.png'
+// import camera360 from './assets/360-camers.png'
 
-import { RightCircleOutlined,RightOutlined, RightCircleFilled } from '@ant-design/icons';
+import { RightCircleFilled } from '@ant-design/icons';
 
 export default function Departments() {
     return (

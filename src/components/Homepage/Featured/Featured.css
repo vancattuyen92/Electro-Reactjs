@@ -1,3 +1,7 @@
+.featured {
+  margin-bottom: 50px;
+}
+
 .special-offer {
   text-align: center;
   -webkit-box-align: center;
@@ -179,11 +183,56 @@ h6 {
   margin-right: 0 !important;
 }
 
+.product-card {
+  width: 100%;
+  padding: 20px 20px 20px 0;
+  margin: 0;
+}
+
+.product-card img {
+  top: 0;
+  width: 100%;
+}
+
 .product-card .sub-name {
   font-size: 12px;
   font-weight: 400;
   color: rgba(128, 128, 128, 0.671);
   margin-bottom: 3px;
+}
+
+.product-card:hover {
+  cursor: pointer;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.product-card .product-price {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.card-featured {
+  border-right: 1px dotted rgba(128, 128, 128, 0.288);
+  position: relative;
+  height: 380px;
+}
+
+.card-featured .product-img {
+  position: absolute;
+  top: 100px;
+  left: 0px;
+}
+
+.card-featured .product-price {
+  position: absolute;
+  top: 330px;
+}
+
+.card-featured .addCart {
+  position: absolute;
+  right: 20px;
+  top: 330px;
 }
 
 .vl {
@@ -223,16 +272,28 @@ h3 {
 }
 
 .addCart:hover {
+  cursor: pointer;
+  background-color: #fed700;
+}
+
+.addCart:hover {
   background-color: #fed700 !important;
   cursor: pointer;
 }
 
 .part {
-  width: 30%;
+  width: 100%;
+  margin: 0 0;
+}
+
+.part .card-deal {
+  border: 1px dotted rgba(128, 128, 128, 0.233);
+  padding: 20px;
 }
 
 .best-deal {
   background-color: #f4f4f4;
+  padding-bottom: 40px;
 }
 
 .best-deal .deal-name {
@@ -271,6 +332,7 @@ h3 {
 }
 
 .best-deal .game-console {
+  width: 30%;
   border-left: 1px solid rgba(128, 128, 128, 0.233);
   border-right: 1px solid rgba(128, 128, 128, 0.233);
 }
@@ -287,6 +349,10 @@ h3 {
   font-weight: 600;
   color: white;
   font-size: 12px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
 }
 
 .best-deal .game-console .middle .button-addCart:hover {
@@ -298,7 +364,7 @@ h3 {
 }
 
 .best-deal .game-console .middle .mini-pics {
-  margin-bottom: 20px;
+  margin-bottom: 100px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -326,12 +392,21 @@ h3 {
 
 .best-deal .game-console .middle .product-price {
   color: red;
+  font-size: 25px;
 }
 
 .best-deal .game-console .middle .product-price span {
   font-size: 15px;
   color: rgba(128, 128, 128, 0.658);
   text-decoration: line-through;
+}
+
+.best-deal .deal-products {
+  background-color: white;
+}
+
+.savingImage {
+  margin: 50px 0;
 }
 
 .savingImage img {

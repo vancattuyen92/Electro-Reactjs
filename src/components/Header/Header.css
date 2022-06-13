@@ -78,4 +78,24 @@ hr {
 .ant-select-arrow {
   color: #333e48 !important;
 }
+
+.cart {
+  cursor: pointer;
+}
+
+.cart-total {
+  width: 300px;
+}
+
+.cart-total .img {
+  width: 40%;
+}
+
+.cart-total .cart-content {
+  width: 100%;
+}
+
+.cart-total .cart-content h4 {
+  color: red;
+}
 /*# sourceMappingURL=Header.css.map */

@@ -3,12 +3,7 @@ import './BestSeller.scss'
 import * as productApi from '../../../apis/apis';
 import { useState, useEffect } from 'react';
 import 'antd/dist/antd.css';
-import { Card } from 'antd';
 
-const gridStyle = {
-  width: '25%',
-  textAlign: 'center',
-};
 
 export default function Recently() {
     const [products, setProducts] = useState([])

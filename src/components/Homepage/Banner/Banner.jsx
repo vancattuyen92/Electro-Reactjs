@@ -48,7 +48,7 @@ export default function Banner() {
           <div>
             <ul className='menu j-between'>
               <li><Dropdown overlay={menu} className='dropdown'>
-                    <a onClick={e => e.preventDefault()}>
+                    <a onClick={e => e.preventDefault()} href="/">
                       <Space>
                         All Pages
                         <DownOutlined />

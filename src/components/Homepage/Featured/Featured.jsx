@@ -48,7 +48,7 @@ export default function Featured() {
   const [isHovering, ] = useState(false)
   const [products, setProducts] = useState([])
   const [carts, setCarts] = useState([])
-  const [cartTotal, setCartTotal] = useState(0)
+  const [, setCartTotal] = useState(0)
   const fetchData = async() => {
     const data = await (await fetch(url)).json()
     setProducts(data.data)
@@ -79,7 +79,6 @@ export default function Featured() {
   //   }
   //   setCartTotal(totalVal)
   // }
-  let cartAmount = carts.length
 
   // console.log('cartTotal',cartTotal)
   // console.log('cartAmount',cartAmount)

@@ -4,7 +4,6 @@ import Header from './components/Header/Header';
 import Banner from './components/Homepage/Banner/Banner';
 import Departments from './components/Homepage/Departments/Departments';
 import Featured from './components/Homepage/Featured/Featured';
-import BestSeller from './components/Homepage/BestSeller/BestSeller';
 import Footer from './components/Footer/Footer';
 
 function App() {
